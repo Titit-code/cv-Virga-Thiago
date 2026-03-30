@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Niklaus Wirth</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <button onclick="irA('inicio')">Inicio</button>
+        <button onclick="irA('portfolio')">Portfolio</button>
+        <button onclick="irA('trabajos')">Trabajos</button>
+        <button onclick="irA('contacto')">Contacto</button>
+    </nav>
+
+    <div class="container">
+
+        <!-- INICIO -->
+        <header id="inicio" class="header">
+            <img src="IMG/Profile-picture.jpg" class="profile-perfil">
+            <h1>Niklaus Wirth</h1>
+            <h2>Programador y Educador</h2>
+        </header>
+
+        <!-- SOBRE MI -->
+        <section>
+            <h3>Sobre mí</h3>
+            <p>
+                Desarrollador enfocado en crear experiencias digitales modernas,
+                con interés en UI/UX y rendimiento web.
+            </p>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio">
+            <h3>Portfolio</h3>
+
+            <div class="proyectos">
+
+                <div class="card">
+                    <h4>Web Torneos Gaming</h4>
+                    <p>Plataforma para organizar torneos online con ranking y registro de jugadores.</p>
+                    <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+
+                    <div class="card-buttons">
+                        <a href="https://github.com/juan-dev/torneos-web" target="_blank">Ver código</a>
+                        <a href="https://github.com" target="_blank">Demo</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h4>App Gestión de Deudas</h4>
+                    <p>Aplicación web para registrar deudas, pagos y visualizar historial financiero.</p>
+                    <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+
+                    <div class="card-buttons">
+                        <a href="https://github.com/juan-dev/app-deudas" target="_blank">Ver código</a>
+                        <a href="https://github.com" target="_blank">Demo</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h4>Landing Page Moderna</h4>
+                    <p>Diseño responsive enfocado en UX/UI para presentación de productos digitales.</p>
+                    <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+
+                    <div class="card-buttons">
+                        <a href="https://github.com/juan-dev/landing-page" target="_blank">Ver código</a>
+                        <a href="https://github.com" target="_blank">Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TRABAJOS -->
+        <section id="trabajos">
+            <h3>Trabajos Destacados</h3>
+            <p>
+                Desarrollador en 
+                <a href="https://www.google.com" target="_blank">Google</a>
+            </p>
+            <p>
+                <a href="mailto:juanperez@gmail.com">juanperez@gmail.com</a>
+            </p>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </div>
+
+    <!-- BOTON -->
+    <button onclick="volverArriba()" class="boton">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
