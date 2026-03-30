@@ -1,2 +1,3 @@
 # cv-Virga-Thiago
-TP Programacion 3 curriculum
+"Trabajo práctico no1. Curriculum
+Web - Apellido Nombre - URL Proyecto"
