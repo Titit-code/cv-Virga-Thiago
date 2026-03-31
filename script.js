@@ -1,10 +1,10 @@
-function irA(seccion) {
+function goTo(seccion) {
     document.getElementById(seccion).scrollIntoView({
         behavior: "smooth"
     });
 }
 
-function volverArriba() {
+function goUp() {
     window.scrollTo({
         top: 0,
         behavior: "smooth"
